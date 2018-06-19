@@ -8,18 +8,24 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
+}
+
+a {
+	text-decoration: none;
+	color: #ea355a;
 }
 
 .main {
 	background-color: #dd2476;
 	width: 800px;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 0px;
 
 }
 
 .account-info {
+	font-size: 13px;
+	line-height: 1.54;
 	margin: auto;
 	margin-top: 61px;
 	padding: auto;
@@ -61,7 +67,9 @@ input {
 	padding: 0; 
 	background-color: #f0f0f0;
 	border: 1px solid transparent;
-	border-radius: 5px;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 1.43;
 	
 }
 
@@ -70,12 +78,20 @@ input {
 	width: 400px;
 	height: 50px;
 	box-shadow: 0 3px #bd1962;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.11;
+	color: #ffffff;
 }
 
 .account-info__head::before {
-	content: '';
+	content: url("../img/key-icon.png");
 	width: 23px;
 	height: 24px;
-	background-image: "../img/key-icon.png";
-	
+}
+
+.form__text {
+	/*font: 12px/1.67 Arial, sans-serif;*/
+	font-size: 12px;
+	line-height: 1.67;
 }
