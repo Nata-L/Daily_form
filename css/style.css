@@ -1,0 +1,81 @@
+body {
+	font-family: Arial, sans-serif;
+	/*font-size: для каждого элемента*/
+	font-weight: 400;
+	color: #7a7b7f;
+	display: block;
+	background-color: #282828;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.main {
+	background-color: #dd2476;
+	width: 800px;
+	margin: auto;
+	margin-top: 0px;
+
+}
+
+.account-info {
+	margin: auto;
+	margin-top: 61px;
+	padding: auto;
+	/*margin-top: 61px 170px 69px 170px;*/
+	width: 460px;
+	height: 470px;
+	background-color: #ffffff;
+	
+	 
+}
+
+.form__first-name, 
+.form__last-name {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 193px;
+	height: 40px;
+	padding-left: 14px;
+	margin-bottom: 15px;
+}
+
+.form__last-name {
+	margin-left: 11px;
+}
+
+.form__email,
+.form__password {
+	box-sizing: border-box;
+	display: block;
+	width: 400px;
+	height: 40px;
+	padding-left: 14px;
+	margin-bottom: 15px;
+
+}
+
+
+input {
+	padding: 0; 
+	background-color: #f0f0f0;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	
+}
+
+.form__btn {
+	background-color: #ea355a;
+	width: 400px;
+	height: 50px;
+	box-shadow: 0 3px #bd1962;
+}
+
+.account-info__head::before {
+	content: '';
+	width: 23px;
+	height: 24px;
+	background-image: "../img/key-icon.png";
+	
+}
